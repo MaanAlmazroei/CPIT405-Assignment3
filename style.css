@@ -1,0 +1,227 @@
+#title{
+    text-align: center;
+    color: rgb(52, 52, 52);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 247, 235);
+}
+
+ul {
+    background-color: #373737;
+    padding: 3px;
+    height: 40px;
+  }
+
+  ul li {
+    list-style-type:none;
+    float:left;
+    margin-right: 15px;
+  }
+  
+  ul li:last-child {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    color: #ffbf40;
+    padding: 10px;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  ul li a:hover {
+    background-color: #f2f2f2;
+    color: #373737;
+  }
+
+  h2{
+    color: white;
+  }
+  #FirstForm{
+    border-radius: 10px;
+    background-color: #373737;
+    height: 480px;
+    width: 400px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffbf40;  
+    margin-bottom: 30px;
+  }
+  #Name{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 360px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  #Description{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 370px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  #Sdate{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+   width: 370px;
+   height: 30px; 
+   margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  #Edate{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 370px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  #Time{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    margin-bottom: 7px;
+  }
+  select option{
+    background-color: #373737;
+  }
+
+#Cevent{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: #ffbf40;
+    border: #ffbf40;
+    margin-left: 10px;
+}
+#Cevent:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#SecForm{
+    border-radius: 10px;
+    background-color: #373737;
+    height: 200px;
+    width: 500px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffbf40; 
+    margin-bottom: 30px;
+}
+
+table tr th{
+    padding: 10px;   
+}
+table tr td{
+    color: white;  
+    padding-left:5px ;
+}
+
+#submitBtn{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: #ffbf40;
+    border: #ffbf40;
+}
+#submitBtn:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+#ViewRes{
+    border-radius: 10px;
+    background-color: #373737;
+    height: 200px;
+    width: 500px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffbf40; 
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#ThirdForm{
+    border-radius: 10px;
+    background-color: #373737;
+    height: 350px;
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 5px;
+    color:  #ffbf40; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#Username{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#Email{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#Password{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: #ffbf40;
+    color: white;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#signBtn{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #ffbf40;
+    border: black;
+}
+#signBtn:hover{
+    color: black;
+    background-color: #f2f2f2;
+}
+footer{
+    background-color: #373737;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
